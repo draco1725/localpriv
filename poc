@@ -1,0 +1,31 @@
+# Exploit Title: Merchandise Online Store System - Vertical Privilege Escalation
+# Exploit Author: oretnom23
+# Vendor Name: oretnom23
+# Vendor Homepage: https://www.sourcecodester.com/php/14887/merchandise-online-store-php-free-source-code.html
+# Software Link: hhttps://www.sourcecodester.com/php/14887/merchandise-online-store-php-free-source-code.html
+# Version: v1.0
+# Tested on: Parrot GNU/Linux 4.10, Apache
+# CVE: ytd
+
+
+Description:-
+A Vertical Privilege Escalation issue in Merchandise Online Store System v.1.0 allows an attacker to get access into admin account without having any privilege. 
+
+`
+Payload: 
+/admin
+
+
+`
+Parameter:- 
+http://localhost/vloggers_merch/admin/
+
+
+`
+Steps to reproduce:-
+
+1. First login as normal user 
+2. We have got the above url as: http://localhost/vloggers_merch/
+3. Now lets add one more directory : /admin
+4. As we can see now got the admin access and we can make changes in admin panel
+5. We can even change the admin password  
